@@ -1,0 +1,13 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print greeting
+      run: echo "Hello, world!"
+    - name: Print hey
+      run: echo"Hey!"
